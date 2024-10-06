@@ -1,4 +1,4 @@
-#include <iosstream>
+#include <iostream>
 using namespace std;
 
 void Menu() {
@@ -13,7 +13,7 @@ void Menu() {
 
 int harga(int bulan) {
     if(bulan < 2) {
-       retur  200000;
+       return  200000;
     }
     else if (bulan <= 4) {
          return 400000;
