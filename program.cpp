@@ -58,3 +58,13 @@ void ask(int bulan) {
 
     cout << "=============================" << endl;
 }
+
+int main() {
+    int n;
+    Menu();
+    cout << "Sudah berapa bulan kendaraan belum di service? ":
+    cin >> n;
+    ask(n);
+    cout << "Terima kasih telah melakukan service di bengkel bubub <3 " << endl
+    return 0;
+}
