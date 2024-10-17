@@ -27,7 +27,9 @@ void ask(int bulan) {
      int price = harga(bulan);
      cout << "Apakah ada kerusakan di kendaraan anda? (ada / tidak) : ";
      cin>>jawab;
-
+    cout << "=============================" << endl;
+    cout << "         STRUK BELANJA      " << endl;
+    cout << "=============================" << endl;
 
 
 
@@ -39,15 +41,12 @@ void ask(int bulan) {
         cout << "Service yang disarankan: ";
         if (bulan < 2) {
             cout << "Service ringan" << endl;
-            price = 200000;
         }
         else if (bulan <= 4) {
             cout << "Service berkala" << endl;
-            price = 400000;
         }
         else {
             cout << "Service berat" << endl;
-            price = 600000;
         }
         cout << "Harga: Rp." << price << endl;
         cout << "Total Biaya: Rp." << price << endl;
